@@ -1,0 +1,39 @@
+.calculator {
+  display: grid;
+  /* width: 20vw; */
+  width: 40%;
+  padding: 2rem;
+  gap: 1rem;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+#display {
+  padding: 16px ;
+  height: 50px;
+  font-size: 2rem;
+  display: flex;
+}
+.btn-grp {
+  display: flex;
+  gap: 1rem;
+}
+.btn-grp button {
+  padding: 1rem;
+  flex-grow: 1;
+  font-size: 2rem;
+  background-color: rgb(72, 91, 148);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-grp button:hover {
+  background-color: rgb(143, 143, 186);
+}
+
+button.operator {
+  background-color: #4ea08d;
+  color: rgb(242, 242, 242);
+  font-weight: bold;
+}
